@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77D9D1870FE2E19600FBE1A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D9D1430FE2DF7000FBE1A7 /* Foundation.framework */; };
+		77D9D1880FE2E19B00FBE1A7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D9D1440FE2DF7E00FBE1A7 /* CoreData.framework */; };
+		77D9D18C0FE2E27200FBE1A7 /* dove_cli.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */; };
+		77D9D18D0FE2E27600FBE1A7 /* DVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D13F0FE2DEF600FBE1A7 /* DVModel.m */; };
+		77D9D18E0FE2E27900FBE1A7 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D1410FE2DEF600FBE1A7 /* Task.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dove_cli.m; sourceTree = "<group>"; };
+		77D9D13D0FE2DEF600FBE1A7 /* dove_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dove_Prefix.pch; sourceTree = "<group>"; };
+		77D9D13E0FE2DEF600FBE1A7 /* DVModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVModel.h; sourceTree = "<group>"; };
+		77D9D13F0FE2DEF600FBE1A7 /* DVModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVModel.m; sourceTree = "<group>"; };
+		77D9D1400FE2DEF600FBE1A7 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		77D9D1410FE2DEF600FBE1A7 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		77D9D1430FE2DF7000FBE1A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		77D9D1440FE2DF7E00FBE1A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77D9D1640FE2E15000FBE1A7 /* dove */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dove; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77D9D1620FE2E15000FBE1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D9D1870FE2E19600FBE1A7 /* Foundation.framework in Frameworks */,
+				77D9D1880FE2E19B00FBE1A7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77D9D12F0FE2DED100FBE1A7 = {
+			isa = PBXGroup;
+			children = (
+				77D9D13B0FE2DEDA00FBE1A7 /* Source */,
+				77D9D1420FE2DF5700FBE1A7 /* External Frameworks and Libraries */,
+				77D9D1490FE2DFC700FBE1A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77D9D13B0FE2DEDA00FBE1A7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */,
+				77D9D13D0FE2DEF600FBE1A7 /* dove_Prefix.pch */,
+				77D9D13E0FE2DEF600FBE1A7 /* DVModel.h */,
+				77D9D13F0FE2DEF600FBE1A7 /* DVModel.m */,
+				77D9D1400FE2DEF600FBE1A7 /* Task.h */,
+				77D9D1410FE2DEF600FBE1A7 /* Task.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		77D9D1420FE2DF5700FBE1A7 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				77D9D1440FE2DF7E00FBE1A7 /* CoreData.framework */,
+				77D9D1430FE2DF7000FBE1A7 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		77D9D1490FE2DFC700FBE1A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77D9D1640FE2E15000FBE1A7 /* dove */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77D9D1630FE2E15000FBE1A7 /* dove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D9D1770FE2E16A00FBE1A7 /* Build configuration list for PBXNativeTarget "dove" */;
+			buildPhases = (
+				77D9D1610FE2E15000FBE1A7 /* Sources */,
+				77D9D1620FE2E15000FBE1A7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dove;
+			productName = dove;
+			productReference = 77D9D1640FE2E15000FBE1A7 /* dove */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77D9D1310FE2DED100FBE1A7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 77D9D1340FE2DED100FBE1A7 /* Build configuration list for PBXProject "Dove" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 77D9D12F0FE2DED100FBE1A7;
+			productRefGroup = 77D9D1490FE2DFC700FBE1A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77D9D1630FE2E15000FBE1A7 /* dove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D9D1610FE2E15000FBE1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D9D18E0FE2E27900FBE1A7 /* Task.m in Sources */,
+				77D9D18D0FE2E27600FBE1A7 /* DVModel.m in Sources */,
+				77D9D18C0FE2E27200FBE1A7 /* dove_cli.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77D9D1320FE2DED100FBE1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_OBJC_GC = required;
+			};
+			name = Debug;
+		};
+		77D9D1330FE2DED100FBE1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_OBJC_GC = required;
+			};
+			name = Release;
+		};
+		77D9D1660FE2E15100FBE1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dove_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = dove;
+			};
+			name = Debug;
+		};
+		77D9D1670FE2E15100FBE1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = doveServer_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = dove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77D9D1340FE2DED100FBE1A7 /* Build configuration list for PBXProject "Dove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D9D1320FE2DED100FBE1A7 /* Debug */,
+				77D9D1330FE2DED100FBE1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D9D1770FE2E16A00FBE1A7 /* Build configuration list for PBXNativeTarget "dove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D9D1660FE2E15100FBE1A7 /* Debug */,
+				77D9D1670FE2E15100FBE1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77D9D1310FE2DED100FBE1A7 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Dove' target in the 'Dove' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
