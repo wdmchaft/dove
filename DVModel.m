@@ -88,29 +88,7 @@
 	NSArray *tagProperties = [NSArray arrayWithObject:nameAttr];
 	[tagEntity setProperties:tagProperties];
 	
-	// This is where the problems occur. See the errors from runtime below.
-	[DVManagedObjectModel setEntities:[NSArray arrayWithObjects:taskEntity, tagEntity]];
-	
-	/*
-	2009-06-19 20:07:16.861 dove[19582:10b] The application support folder is being found...
-	2009-06-19 20:07:16.870 dove[19582:10b] *** -[NSAttributeDescription _setManagedObjectModel:]: unrecognized selector sent to instance 0x101a700
-	2009-06-19 20:07:16.871 dove[19582:10b] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSAttributeDescription _setManagedObjectModel:]: unrecognized selector sent to instance 0x101a700'
-	2009-06-19 20:07:16.872 dove[19582:10b] Stack: (
-													2455761067,
-													2456124987,
-													2455790250,
-													2455783596,
-													2455783794,
-													2508869246,
-													12224,
-													10559,
-													2456111288,
-													2456105529,
-													2456172246,
-													10422
-	)
-	Trace/BPT trap
-	*/
+	[DVManagedObjectModel setEntities:[NSArray arrayWithObjects:taskEntity, tagEntity, nil]];
 }
 
 + (NSManagedObjectModel *)managedObjectModel {
