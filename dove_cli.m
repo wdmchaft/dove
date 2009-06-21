@@ -1,20 +1,20 @@
 #import <Foundation/Foundation.h>
-#import "DVModel.h"
+#import "DoveEngine.h"
 #import "Task.h"
 
 
 int main (int argc, const char * argv[]) {
 	objc_startCollectorThread();
 	
-	if ([DVModel applicationSupportFolder] == nil) {
+	if ([DoveEngine applicationSupportFolder] == nil) {
 		NSLog(@"Could not find application support folder.\nExiting...");
 		exit(1);
 	}
 	
 	NSUserDefaults *args = [NSUserDefaults standardUserDefaults];
 	
-	NSManagedObjectContext *moc = [DVModel managedObjectContext];
-	NSManagedObjectModel *mom = [DVModel managedObjectModel];
+	NSManagedObjectContext *moc = [DoveEngine managedObjectContext];
+	NSManagedObjectModel *mom = [DoveEngine managedObjectModel];
 	
 	NSEntityDescription *taskEntity = [[mom entitiesByName] objectForKey:@"Task"];
 	

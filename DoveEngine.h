@@ -1,5 +1,5 @@
 //
-//  DVModel.h
+//  DoveEngine.h
 //  Dove
 //
 //  Created by Michael Zink on 09.06.12.
@@ -14,7 +14,7 @@ static NSString *DVApplicationSupportFolder = nil;
 static NSManagedObjectModel *DVManagedObjectModel = nil;
 static NSManagedObjectContext *DVManagedObjectContext = nil;
 
-@interface DVModel : NSObject
+@interface DoveEngine : NSObject
 
 + (NSString *)applicationSupportFolder;
 + (void)initApplicationSupportFolder;

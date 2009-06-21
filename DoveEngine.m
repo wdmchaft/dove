@@ -1,15 +1,15 @@
 //
-//  DVModel.m
+//  DoveEngine.m
 //  Dove
 //
 //  Created by Michael Zink on 09.06.12.
 //  Copyright 2009 Baconfeet & Associates. All rights reserved.
 //
 
-#import "DVModel.h"
+#import "DoveEngine.h"
 
 
-@implementation DVModel
+@implementation DoveEngine
 
 + (void)initialize {
 	if (!DVApplicationSupportFolder) {

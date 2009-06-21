@@ -10,15 +10,15 @@
 		77D9D1870FE2E19600FBE1A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D9D1430FE2DF7000FBE1A7 /* Foundation.framework */; };
 		77D9D1880FE2E19B00FBE1A7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D9D1440FE2DF7E00FBE1A7 /* CoreData.framework */; };
 		77D9D18C0FE2E27200FBE1A7 /* dove_cli.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */; };
-		77D9D18D0FE2E27600FBE1A7 /* DVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D13F0FE2DEF600FBE1A7 /* DVModel.m */; };
+		77D9D18D0FE2E27600FBE1A7 /* DoveEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */; };
 		77D9D18E0FE2E27900FBE1A7 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D1410FE2DEF600FBE1A7 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dove_cli.m; sourceTree = "<group>"; };
 		77D9D13D0FE2DEF600FBE1A7 /* dove_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dove_Prefix.pch; sourceTree = "<group>"; };
-		77D9D13E0FE2DEF600FBE1A7 /* DVModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVModel.h; sourceTree = "<group>"; };
-		77D9D13F0FE2DEF600FBE1A7 /* DVModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVModel.m; sourceTree = "<group>"; };
+		77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoveEngine.h; sourceTree = "<group>"; };
+		77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoveEngine.m; sourceTree = "<group>"; };
 		77D9D1400FE2DEF600FBE1A7 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		77D9D1410FE2DEF600FBE1A7 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		77D9D1430FE2DF7000FBE1A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -53,8 +53,8 @@
 			children = (
 				77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */,
 				77D9D13D0FE2DEF600FBE1A7 /* dove_Prefix.pch */,
-				77D9D13E0FE2DEF600FBE1A7 /* DVModel.h */,
-				77D9D13F0FE2DEF600FBE1A7 /* DVModel.m */,
+				77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */,
+				77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */,
 				77D9D1400FE2DEF600FBE1A7 /* Task.h */,
 				77D9D1410FE2DEF600FBE1A7 /* Task.m */,
 			);
@@ -121,7 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77D9D18E0FE2E27900FBE1A7 /* Task.m in Sources */,
-				77D9D18D0FE2E27600FBE1A7 /* DVModel.m in Sources */,
+				77D9D18D0FE2E27600FBE1A7 /* DoveEngine.m in Sources */,
 				77D9D18C0FE2E27200FBE1A7 /* dove_cli.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
