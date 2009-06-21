@@ -24,7 +24,6 @@
 }
 
 + (void)initApplicationSupportFolder {
-	NSLog(@"The application support folder is being found...");
 	NSArray *paths = NSSearchPathForDirectoriesInDomains
 		(NSApplicationSupportDirectory, NSUserDomainMask, YES);
 	NSString *basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : NSTemporaryDirectory();
@@ -45,7 +44,6 @@
 }
 
 + (NSString *)applicationSupportFolder {
-	NSLog(@"The application support folder is being used!");
 	return DVApplicationSupportFolder;
 }
 

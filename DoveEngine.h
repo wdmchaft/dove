@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <CoreData/CoreData.h>
+#import "Task.h"
 
 
 static NSString *DVApplicationSupportFolder = nil;

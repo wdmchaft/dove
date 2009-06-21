@@ -35,7 +35,7 @@
 		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
 		name = "DVModel.h: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 212;
 		vrLoc = 0;
@@ -65,7 +65,7 @@
 		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
 		name = "DVModel.h: 12";
 		rLen = 0;
-		rLoc = 196;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 0;
@@ -75,7 +75,7 @@
 		fRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */;
 		name = "dove_cli.m: 43";
 		rLen = 0;
-		rLoc = 1389;
+		rLoc = 1391;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 922;
@@ -85,7 +85,7 @@
 		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
 		name = "DVModel.m: 53";
 		rLen = 1453;
-		rLoc = 1379;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 1319;
 		vrLoc = 1198;
@@ -125,7 +125,7 @@
 		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
 		name = "DVModel.m: 53";
 		rLen = 1453;
-		rLoc = 1379;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 1319;
 		vrLoc = 1198;
@@ -135,7 +135,7 @@
 		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
 		name = "DVModel.m: 87";
 		rLen = 0;
-		rLoc = 2713;
+		rLoc = 2594;
 		rType = 0;
 		vrLen = 1485;
 		vrLoc = 2310;
@@ -145,7 +145,7 @@
 		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
 		name = "DVModel.m: 92";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 2793;
 		rType = 0;
 		vrLen = 1235;
 		vrLoc = 2519;
@@ -165,7 +165,7 @@
 		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
 		name = "DVModel.m: 90";
 		rLen = 0;
-		rLoc = 2819;
+		rLoc = 2700;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 2519;
@@ -185,7 +185,7 @@
 		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
 		name = "DVModel.m: 92";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 2793;
 		rType = 0;
 		vrLen = 1235;
 		vrLoc = 2519;
@@ -199,6 +199,236 @@
 		rType = 0;
 		vrLen = 315;
 		vrLoc = 0;
+	};
+	77B2D6860FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
+		name = "DoveEngine.h: 25";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 0;
+	};
+	77B2D6870FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D1400FE2DEF600FBE1A7 /* Task.h */;
+		name = "Task.h: 10";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	77B2D6880FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */;
+		name = "dove_cli.m: 42";
+		rLen = 0;
+		rLoc = 1389;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	77B2D6890FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
+		name = "DoveEngine.m: 2";
+		rLen = 0;
+		rLoc = 17;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 0;
+	};
+	77B2D68A0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D1400FE2DEF600FBE1A7 /* Task.h */;
+		name = "Task.h: 10";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	77B2D68B0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */;
+		name = "dove_cli.m: 43";
+		rLen = 0;
+		rLoc = 1391;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 0;
+	};
+	77B2D68C0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
+		name = "DVModel.h: 12";
+		rLen = 0;
+		rLoc = 213;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 0;
+	};
+	77B2D68D0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */;
+		name = "dove_cli.m: 43";
+		rLen = 0;
+		rLoc = 1391;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 0;
+	};
+	77B2D68E0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
+		name = "DoveEngine: 12";
+		rLen = 0;
+		rLoc = 213;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 0;
+	};
+	77B2D68F0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
+		name = "DVModel.m: 92";
+		rLen = 0;
+		rLoc = 2793;
+		rType = 0;
+		vrLen = 1235;
+		vrLoc = 2519;
+	};
+	77B2D6900FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
+		name = "DoveEngine.h: 12";
+		rLen = 0;
+		rLoc = 213;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 0;
+	};
+	77B2D6910FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
+		name = "DoveEngine.m: 92";
+		rLen = 0;
+		rLoc = 2793;
+		rType = 0;
+		vrLen = 1235;
+		vrLoc = 2519;
+	};
+	77B2D6920FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */;
+		name = "dove_cli.m: 43";
+		rLen = 0;
+		rLoc = 1391;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 0;
+	};
+	77B2D6930FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
+		name = "DoveEngine.h: 17";
+		rLen = 0;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 0;
+	};
+	77B2D6940FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
+		name = "DoveEngine.m: 2";
+		rLen = 0;
+		rLoc = 17;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 0;
+	};
+	77B2D6950FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
+		name = "DoveEngine.h: 2";
+		rLen = 0;
+		rLoc = 17;
+		rType = 0;
+		vrLen = 646;
+		vrLoc = 0;
+	};
+	77B2D6960FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */;
+		name = "dove_cli.m: 26";
+		rLen = 0;
+		rLoc = 865;
+		rType = 0;
+		vrLen = 1357;
+		vrLoc = 419;
+	};
+	77B2D6970FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
+		name = "DoveEngine.h: 27";
+		rLen = 0;
+		rLoc = 680;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 0;
+	};
+	77B2D6980FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D1400FE2DEF600FBE1A7 /* Task.h */;
+		name = "Task.h: 10";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	77B2D6990FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */;
+		name = "DoveEngine.h: 25";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 0;
+	};
+	77B2D69A0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D1400FE2DEF600FBE1A7 /* Task.h */;
+		name = "Task.h: 10";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	77B2D69B0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */;
+		name = "dove_cli.m: 42";
+		rLen = 0;
+		rLoc = 1389;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	77B2D69C0FEDB24400AAF8BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */;
+		name = "DoveEngine.m: 46";
+		rLen = 0;
+		rLoc = 1187;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 359;
 	};
 	77D9D1310FE2DED100FBE1A7 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -328,6 +558,29 @@
 			77B2D67E0FED8BD600AAF8BF /* PBXTextBookmark */ = 77B2D67E0FED8BD600AAF8BF /* PBXTextBookmark */;
 			77B2D67F0FED8BD600AAF8BF /* PBXTextBookmark */ = 77B2D67F0FED8BD600AAF8BF /* PBXTextBookmark */;
 			77B2D6800FED8BD600AAF8BF /* PBXTextBookmark */ = 77B2D6800FED8BD600AAF8BF /* PBXTextBookmark */;
+			77B2D6860FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6860FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6870FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6870FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6880FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6880FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6890FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6890FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D68A0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D68A0FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D68B0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D68B0FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D68C0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D68C0FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D68D0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D68D0FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D68E0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D68E0FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D68F0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D68F0FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6900FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6900FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6910FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6910FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6920FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6920FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6930FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6930FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6940FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6940FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6950FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6950FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6960FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6960FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6970FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6970FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6980FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6980FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D6990FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D6990FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D69A0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D69A0FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D69B0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D69B0FEDB24400AAF8BF /* PBXTextBookmark */;
+			77B2D69C0FEDB24400AAF8BF /* PBXTextBookmark */ = 77B2D69C0FEDB24400AAF8BF /* PBXTextBookmark */;
 			77D9D1C20FE2F0BF00FBE1A7 = 77D9D1C20FE2F0BF00FBE1A7 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 77D9D1350FE2DED100FBE1A7 /* Source Control */;
@@ -347,9 +600,9 @@
 	};
 	77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {638, 1064}}";
-			sepNavSelRange = "{1380, 0}";
-			sepNavVisRange = "{0, 1196}";
+			sepNavIntBoundsRect = "{{0, 0}, {638, 1078}}";
+			sepNavSelRange = "{1389, 0}";
+			sepNavVisRange = "{0, 1208}";
 			sepNavWindowFrame = "{{473, 77}, {598, 617}}";
 		};
 	};
@@ -363,15 +616,15 @@
 	77D9D13E0FE2DEF600FBE1A7 /* DoveEngine.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {638, 493}}";
-			sepNavSelRange = "{17, 0}";
-			sepNavVisRange = "{0, 646}";
+			sepNavSelRange = "{657, 0}";
+			sepNavVisRange = "{0, 663}";
 		};
 	};
 	77D9D13F0FE2DEF600FBE1A7 /* DoveEngine.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {638, 1750}}";
-			sepNavSelRange = "{17, 0}";
-			sepNavVisRange = "{0, 1087}";
+			sepNavIntBoundsRect = "{{0, 0}, {638, 1862}}";
+			sepNavSelRange = "{1187, 0}";
+			sepNavVisRange = "{359, 1131}";
 		};
 	};
 	77D9D1400FE2DEF600FBE1A7 /* Task.h */ = {
@@ -455,7 +708,7 @@
 		fRef = 77D9D13C0FE2DEF600FBE1A7 /* dove_cli.m */;
 		name = "dove_cli.m: 6";
 		rLen = 0;
-		rLoc = 72;
+		rLoc = 75;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 0;

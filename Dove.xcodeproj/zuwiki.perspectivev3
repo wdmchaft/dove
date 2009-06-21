@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>10</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -309,12 +307,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>77D9D1690FE2E16A00FBE1A7</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Task.h</string>
+								<string>DoveEngine.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,16 +322,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>77D9D16A0FE2E16A00FBE1A7</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Task.h</string>
+										<string>DoveEngine.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>77B2D6800FED8BD600AAF8BF</string>
+										<string>77B2D69C0FEDB24400AAF8BF</string>
 										<key>history</key>
 										<array>
 											<string>7764C4AF0FEC82CB0022DDA6</string>
-											<string>77B2D67B0FED8BD600AAF8BF</string>
-											<string>77B2D67C0FED8BD600AAF8BF</string>
+											<string>77B2D6860FEDB24400AAF8BF</string>
+											<string>77B2D6870FEDB24400AAF8BF</string>
+											<string>77B2D6880FEDB24400AAF8BF</string>
+											<string>77B2D6890FEDB24400AAF8BF</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -344,6 +346,24 @@
 											<string>77B2D67D0FED8BD600AAF8BF</string>
 											<string>77B2D67E0FED8BD600AAF8BF</string>
 											<string>77B2D67F0FED8BD600AAF8BF</string>
+											<string>77B2D68A0FEDB24400AAF8BF</string>
+											<string>77B2D68B0FEDB24400AAF8BF</string>
+											<string>77B2D68C0FEDB24400AAF8BF</string>
+											<string>77B2D68D0FEDB24400AAF8BF</string>
+											<string>77B2D68E0FEDB24400AAF8BF</string>
+											<string>77B2D68F0FEDB24400AAF8BF</string>
+											<string>77B2D6900FEDB24400AAF8BF</string>
+											<string>77B2D6910FEDB24400AAF8BF</string>
+											<string>77B2D6920FEDB24400AAF8BF</string>
+											<string>77B2D6930FEDB24400AAF8BF</string>
+											<string>77B2D6940FEDB24400AAF8BF</string>
+											<string>77B2D6950FEDB24400AAF8BF</string>
+											<string>77B2D6960FEDB24400AAF8BF</string>
+											<string>77B2D6970FEDB24400AAF8BF</string>
+											<string>77B2D6980FEDB24400AAF8BF</string>
+											<string>77B2D6990FEDB24400AAF8BF</string>
+											<string>77B2D69A0FEDB24400AAF8BF</string>
+											<string>77B2D69B0FEDB24400AAF8BF</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
