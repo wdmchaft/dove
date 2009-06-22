@@ -68,9 +68,14 @@ int main (int argc, const char * argv[]) {
 		}
 		
 		Task *task = [[Task alloc] initWithEntity:taskEntity insertIntoManagedObjectContext:moc];
-		
+		NSString *c = [[NSString init] alloc];
 		for (task in tasks) {
-			NSLog(@"%@ (due %@)", task.action, task.dueDate);
+			if (task.completed) {
+				c = [NSString stringWithString:@"x"];
+			} else {
+				c = [NSString stringWithString:@" "];
+			}
+			NSLog(@"[%@] %@ (due %@)", c, task.action, task.dueDate);
 		}
 	}
 	

@@ -8,9 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Task : NSManagedObject {
-}
+@interface Task : NSManagedObject
 @property (retain) NSString *action;
 @property (retain) NSDate *dueDate;
-@property (nonatomic) BOOL *completed;
+@property (retain) NSNumber *completed;
+
 @end

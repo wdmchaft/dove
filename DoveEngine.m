@@ -68,6 +68,7 @@
 	NSAttributeDescription *completedAttr = [[NSAttributeDescription alloc] init];
 	[completedAttr setName:@"completed"];
 	[completedAttr setAttributeType:NSBooleanAttributeType];
+	[completedAttr setDefaultValue:NO];
 	[completedAttr setOptional:YES];
 	
 	NSArray *taskProperties = [NSArray arrayWithObjects:actionAttr, dueDateAttr, completedAttr, nil];
